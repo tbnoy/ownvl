@@ -1,0 +1,31 @@
+service: sv3
+
+provider:
+  name: aws
+  runtime: python3.6
+
+  environment:
+    authUrl: ${file(config.${self:provider.stage}.json):authUrl}
+    waiversUrl: ${file(config.${self:provider.stage}.json):waiversUrl}
+    platformUrl: ${file(config.${self:provider.stage}.json):platformUrl}
+    profileToken: ${file(config.${self:provider.stage}.json):profileToken}
+    
+functions:
+  fetch:
+    handler: handler.fetch
+    memorySize: 512
+    events:
+      - http:
+          path: /
+          method: get
+          request:
+            parameters:
+              querystrings:
+                url: true
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: true

@@ -1,0 +1,23 @@
+FROM python:3
+
+# docker build -t video-lambda .
+# docker run --rm -it -v "$PWD":/var/www video-lambda python --version
+# docker run -it -v "$PWD":/var/www -p 80:8000 video-lambda /bin/bash
+
+
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
+RUN apt-get install -y apt-utils
+RUN apt-get install -y nodejs
+
+RUN npm install -g serverless
+
+WORKDIR /var/www/
+
+COPY ./src/fetchFunction/requirements.txt .
+
+RUN pip install -r requirements.txt
+
+
+COPY . .
+
+EXPOSE 8000

@@ -1,0 +1,12 @@
+FROM node:6.12-alpine
+
+WORKDIR /var/www/
+
+COPY . .
+
+RUN cd /var/www/test-server && \
+    npm install
+
+EXPOSE 80
+
+CMD cd ./test-server/ && node index.js

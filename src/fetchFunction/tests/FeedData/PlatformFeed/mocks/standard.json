@@ -1,0 +1,190 @@
+{
+  "$xmlns": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "media": "http://search.yahoo.com/mrss/",
+    "pl": "http://xml.theplatform.com/data/object",
+    "pla": "http://xml.theplatform.com/data/object/admin",
+    "plmedia": "http://xml.theplatform.com/media/data/Media",
+    "plfile": "http://xml.theplatform.com/media/data/MediaFile",
+    "plrelease": "http://xml.theplatform.com/media/data/Release"
+  },
+  "startIndex": 1,
+  "itemsPerPage": 100,
+  "entryCount": 1,
+  "title": "Club Live Site Player Feed",
+  "entries": [
+    {
+      "$xmlns": {
+        "pl1": "http://access.auth.theplatform.com/data/Account/2585707669"
+      },
+      "id": "http://data.media.theplatform.com/media/data/Media/734324291695",
+      "guid": "CDF001B001B",
+      "updated": 1502389994000,
+      "title": "MMA Speed",
+      "description": "Upper body and core-focused, this Boxing-influenced workout is short-but packs a serious punch!",
+      "media$availableDate": 0,
+      "media$expirationDate": 0,
+      "media$categories": [
+        {
+          "media$name": "Programs/CoreDeForce",
+          "media$scheme": "",
+          "media$label": ""
+        }
+      ],
+      "media$copyright": "",
+      "media$copyrightUrl": "",
+      "media$credits": [
+
+      ],
+      "media$keywords": "",
+      "media$ratings": [
+
+      ],
+      "media$countries": [
+
+      ],
+      "media$excludeCountries": true,
+      "media$text": "",
+      "media$content": [
+        {
+          "plfile$audioChannels": 0,
+          "plfile$audioSampleRate": 0,
+          "plfile$bitrate": 0,
+          "plfile$checksums": {
+
+          },
+          "plfile$contentType": "video",
+          "plfile$duration": 1605.000,
+          "plfile$expression": "full",
+          "plfile$fileSize": 0,
+          "plfile$frameRate": 0.0,
+          "plfile$format": "M3U",
+          "plfile$height": 0,
+          "plfile$isDefault": false,
+          "plfile$language": "",
+          "plfile$sourceTime": 0.000,
+          "plfile$url": "https://link.theplatform.com/s/VSsHaC/lt5CkGZbNZXn?feed=Club%20Live%20Site%20Player%20Feed",
+          "plfile$width": 0,
+          "id": "http://data.media.theplatform.com/media/data/MediaFile/734325827629",
+          "guid": "CDF001B001B.m3u8",
+          "plfile$releases": [
+            {
+              "plrelease$pid": "lt5CkGZbNZXn"
+            }
+          ],
+          "plfile$sourceUrl": "https://content.uplynk.com/ext/682389d3b3e244a5bd4b9853036d1eff/CDF001B001B.m3u8?hlsver=5&tc=1&exp={date:90}&rn={n}&ct=a&eid=CDF001B001B&oid=682389d3b3e244a5bd4b9853036d1eff&euid={param:bbuidHash}{param:bbuid}&platform={param:platform}&platformDetail={param:platformDetail}&sig={hmac:HmacSHA256:/CTg1LY+3/AU6vBO6k4eSiO3khqViVQKzH1brRlF::::true}",
+          "plfile$storageUrl": ""
+        },
+        {
+          "plfile$audioChannels": 0,
+          "plfile$audioSampleRate": 0,
+          "plfile$bitrate": 0,
+          "plfile$checksums": {
+
+          },
+          "plfile$contentType": "video",
+          "plfile$duration": 1605.000,
+          "plfile$expression": "full",
+          "plfile$fileSize": 0,
+          "plfile$frameRate": 0.0,
+          "plfile$format": "M3U",
+          "plfile$height": 0,
+          "plfile$isDefault": false,
+          "plfile$language": "",
+          "plfile$sourceTime": 0.000,
+          "plfile$url": "https://link.theplatform.com/s/VSsHaC/9Ra6EmKFPG7j?feed=Club%20Live%20Site%20Player%20Feed",
+          "plfile$width": 0,
+          "id": "http://data.media.theplatform.com/media/data/MediaFile/734325827629",
+          "guid": "CDF001B001B.m3u8",
+          "plfile$releases": [
+            {
+              "plrelease$pid": "9Ra6EmKFPG7j"
+            }
+          ],
+          "plfile$sourceUrl": "https://content.uplynk.com/ext/682389d3b3e244a5bd4b9853036d1eff/CDF001B001B.m3u8?hlsver=5&tc=1&exp={date:90}&rn={n}&ct=a&eid=CDF001B001B&oid=682389d3b3e244a5bd4b9853036d1eff&euid={param:bbuidHash}{param:bbuid}&platform={param:platform}&platformDetail={param:platformDetail}&sig={hmac:HmacSHA256:/CTg1LY+3/AU6vBO6k4eSiO3khqViVQKzH1brRlF::::true}",
+          "plfile$storageUrl": ""
+        }
+      ],
+      "media$thumbnails": [
+        {
+          "plfile$audioChannels": 0,
+          "plfile$audioSampleRate": 0,
+          "plfile$bitrate": 0,
+          "plfile$checksums": {
+            "md5": "5C309B6A6F108794889B5F443C1B415C"
+          },
+          "plfile$contentType": "image",
+          "plfile$duration": 0.000,
+          "plfile$expression": "full",
+          "plfile$fileSize": 54781,
+          "plfile$frameRate": 0.0,
+          "plfile$format": "JPEG",
+          "plfile$height": 224,
+          "plfile$isDefault": true,
+          "plfile$language": "",
+          "plfile$sourceTime": 0.000,
+          "plfile$url": "https://static.beachbodyondemand.com/images/VDMS_Beachbody/915/223/1f_Workout_Thumbnail_398x224.jpg",
+          "plfile$width": 398,
+          "id": "http://data.media.theplatform.com/media/data/MediaFile/755289667591",
+          "guid": "BmIQhQIqwjguEvOTh8LfkE1xZfSE4v4R",
+          "plfile$releases": [
+
+          ],
+          "plfile$sourceUrl": "1f_Workout_Thumbnail_398x224.jpg",
+          "plfile$storageUrl": "ftp://staticclub.upload.akamai.com/365043/images/VDMS_Beachbody/915/223/1f_Workout_Thumbnail_398x224.jpg"
+        }
+      ],
+      "plmedia$categoryIds": [
+        "http://data.media.theplatform.com/media/data/Category/734316611700"
+      ],
+      "plmedia$chapters": [
+
+      ],
+      "link": "",
+      "pubDate": 1469751252000,
+      "plmedia$titleLocalized": {
+
+      },
+      "plmedia$linkLocalized": {
+
+      },
+      "plmedia$textLocalized": {
+
+      },
+      "plmedia$defaultThumbnailUrl": "https://static.beachbodyondemand.com/images/VDMS_Beachbody/915/223/1f_Workout_Thumbnail_398x224.jpg",
+      "plmedia$programId": "",
+      "plmedia$seriesId": "",
+      "plmedia$pid": "vaGRp_TTZ9Di",
+      "plmedia$publicUrl": "https://link.theplatform.com/s/VSsHaC/media/vaGRp_TTZ9Di",
+      "pl1$adAssetID": "CDF001B001B",
+      "pl1$brandAbbrev": "CDF",
+      "pl1$episodeNumber": "0",
+      "pl1$feature": [
+        "CDJ"
+      ],
+      "pl1$groupName": "MMA Speed",
+      "pl1$groupSeq": 1,
+      "pl1$groupWorkoutSeq": 2,
+      "pl1$kitSeq": 2,
+      "pl1$kitType": "Basic",
+      "pl1$libraryPublished": false,
+      "pl1$marketingTime": 27.00,
+      "pl1$originalAirDate": "2016-11-01",
+      "pl1$programTitle": "Core De Force",
+      "pl1$relatedVideos": {
+        "mod.1": "CDF001MOD1"
+      },
+      "pl1$searchable": true,
+      "pl1$trainers": [
+        "Joel Freeman",
+        "Jericho McMatthews"
+      ],
+      "pl1$videoType": [
+        "Workout"
+      ],
+      "pl1$workoutLevels": [
+        "Intermediate"
+      ]
+    }
+  ]
+}

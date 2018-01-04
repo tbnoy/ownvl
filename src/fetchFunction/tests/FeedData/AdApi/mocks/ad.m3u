@@ -1,0 +1,34 @@
+<smil xmlns="http://www.w3.org/2005/SMIL21/Language">
+	<head>
+	</head>
+	<body>
+		<seq>
+			<par>
+				<video src="https://content.uplynk.com/ext/682389d3b3e244a5bd4b9853036d1eff/CDF001B001B.m3u8?hlsver=5&amp;tc=1&amp;exp=1510128986&amp;rn=33064&amp;ct=a&amp;eid=CDF001B001B&amp;oid=682389d3b3e244a5bd4b9853036d1eff&amp;euid=5F5DA2E8-D4EF-45FA-AB7B-F49A6A3226DE&amp;platform=web&amp;platformDetail=&amp;sig=7b0222037b642a3966b743a90d364eb4788f2b8d305343313beaeb934750dde0" title="MMA Speed" abstract="Upper body and core-focused, this Boxing-influenced workout is short-but packs a serious punch!" dur="1605000ms" guid="CDF001B001B" categories="Programs/CoreDeForce" type="application/x-mpegURL">
+					<param name="adAssetID" value="CDF001B001B"/>
+					<param name="brandAbbrev" value="CDF"/>
+					<param name="episodeNumber" value="0"/>
+					<param name="feature[0]" value="CDJ"/>
+					<param name="groupName" value="MMA Speed"/>
+					<param name="groupSeq" value="1"/>
+					<param name="groupWorkoutSeq" value="2"/>
+					<param name="kitSeq" value="2"/>
+					<param name="kitType" value="Basic"/>
+					<param name="libraryPublished" value="false"/>
+					<param name="marketingTime" value="27.00"/>
+					<param name="originalAirDate" value="2016-11-01"/>
+					<param name="programTitle" value="Core De Force"/>
+					<param name="relatedVideos.mod.1" value="CDF001MOD1"/>
+					<param name="searchable" value="true"/>
+					<param name="trainers[0]" value="Joel Freeman"/>
+					<param name="trainers[1]" value="Jericho McMatthews"/>
+					<param name="videoType[0]" value="Workout"/>
+					<param name="workoutLevels[0]" value="Intermediate"/>
+				</video>
+				<textstream src="https://static.beachbodyondemand.com/cc/VDMS_Beachbody/915/223/CoreDeForce.MMASpeed.CDF21944.ECC.J516.srt" lang="en-US" type="text/srt"/>
+			</par>
+			<ref src="https://content.uplynk.com/ext/682389d3b3e244a5bd4b9853036d1eff/AD-DBT09.m3u8?hlsver=5&amp;tc=1&amp;exp=1510128986&amp;rn=423376&amp;ct=a&amp;eid=AD-DBT09&amp;oid=682389d3b3e244a5bd4b9853036d1eff&amp;euid=5F5DA2E8-D4EF-45FA-AB7B-F49A6A3226DE&amp;platform=web&amp;sig=1d9d55405afd9269707734698dd2431bce674c37fa944242e784d97137c77651" type="application/x-mpegURL" title="https://www.beachbodyondemand.com/programs/double-time/workouts?ICID=BOD_THB_DTLAUNCH_PostRoll" no-skip="false" tags="postroll">
+			</ref>
+		</seq>
+	</body>
+</smil>

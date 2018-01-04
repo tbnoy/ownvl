@@ -1,0 +1,31 @@
+version: "2"
+
+services:
+  python:
+    container_name: va_python
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile.python
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/var/www
+    tty: true
+    networks:
+      - appnet
+
+  # test-server:
+  #   build:
+  #     context: ./
+  #     dockerfile: ./docker/Dockerfile.node
+  #   ports:
+  #     - "3000:80"
+  #   volumes:
+  #     - ./:/var/www
+  #   tty: true
+  #   networks:
+  #     - appnet
+  
+networks:
+  appnet:
+    driver: "bridge"
