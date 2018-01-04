@@ -9,4 +9,4 @@ install:
 script:
   - cd src/fetchFunction && pytest 
   - npm install -g serverless
-  - sls deploy
+  - cd src/fetchFunction && sls deploy
