@@ -7,6 +7,6 @@ install:
   - pip install -r ./src/requirements.txt
 
 script:
-  - cd src/fetchFunction && pytest 
-  - npm install -g serverless
-  - cd src/fetchFunction && sls deploy
+  - cd src/fetchFunction && pytest && pwd
+  - npm install -g serverless && pwd
+  - pwd && cd src/fetchFunction && sls deploy
