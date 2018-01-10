@@ -1,0 +1,12 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - pip install -r ./src/requirements.txt
+      - cd src/fetchFunction && pytest
+      - npm install -g serverless
+      - cd ../ && npm install
+      #- sls deploy
+  build:
+    commands:
+      - serverless deploy --stage cicd | tee deploy.out 
