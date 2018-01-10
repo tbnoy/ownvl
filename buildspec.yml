@@ -5,7 +5,7 @@ phases:
       - pip install -r ./src/requirements.txt
       - cd src/fetchFunction && pytest
       - npm install -g serverless
-      - ls && npm install
+      - cd src && npm install
       #- sls deploy
   build:
     commands:
