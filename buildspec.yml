@@ -9,4 +9,4 @@ phases:
       #- sls deploy
   build:
     commands:
-      - serverless deploy --stage cicd | tee deploy.out 
+      - cd src && sls deploy
