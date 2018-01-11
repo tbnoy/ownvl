@@ -6,7 +6,6 @@ phases:
       - cd src/fetchFunction && pytest
       - npm install -g serverless
       - cd src && npm install
-      #- sls deploy
   build:
     commands:
       - cd src && sls deploy
