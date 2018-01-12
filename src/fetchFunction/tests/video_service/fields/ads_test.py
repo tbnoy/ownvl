@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 from unittest.mock import patch
 import json
 import os
-from fetchFunction.video_service.fields.ads import Ads
+from src.fetchFunction.video_service.fields.ads import Ads
 
 class AudioTest(unittest.TestCase):
     
@@ -14,7 +14,7 @@ class AudioTest(unittest.TestCase):
 
         self.mockedTextRespo = type('lamdbaobject', (object,), {})()
 
-    @patch('fetchFunction.video_service.fields.ads.requests')
+    @patch('src.fetchFunction.video_service.fields.ads.requests')
     def test_fetch_failed(self, requestsMock):
         curDir = os.path.dirname(os.path.abspath(__file__))
         path = os.path.join(curDir, '..', '..', 'FeedData', 'AdApi', 'mocks', 'ad.m3u')

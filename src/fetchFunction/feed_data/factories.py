@@ -1,7 +1,7 @@
 from .platform_feed import PlatformFeed
 from .ProfileApi import ProfileApi
 import requests
-from fetchFunction.config.conf import conf
+from src.fetchFunction.config.conf import conf
 
 def getPlatform():
     url = conf['platformUrl']

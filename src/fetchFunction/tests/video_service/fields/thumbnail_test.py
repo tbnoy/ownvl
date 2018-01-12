@@ -1,7 +1,7 @@
 import unittest
 import json
 import os
-from fetchFunction.video_service.fields.thumbnail import Thumbnail
+from src.fetchFunction.video_service.fields.thumbnail import Thumbnail
 
 class ThumbnailTest(unittest.TestCase):
     

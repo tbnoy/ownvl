@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
-from fetchFunction.feed_data.platform_feed import PlatformFeed
+from src.fetchFunction.feed_data.platform_feed import PlatformFeed
 
 class PlatformFeedTest(unittest.TestCase):
 

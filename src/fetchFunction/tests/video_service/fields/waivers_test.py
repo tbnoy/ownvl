@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import MagicMock
 import json
 import os
-from fetchFunction.video_service.fields.waivers import Waivers
+from src.fetchFunction.video_service.fields.waivers import Waivers
 
 class WaiversTest(unittest.TestCase):
     

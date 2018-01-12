@@ -22,6 +22,6 @@ var/
 **/*.pyc
 **/.cache
 **/__pycache__
-src/node_modules
+*node_modules*
 config.*.json
 !config.dev.json

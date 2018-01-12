@@ -3,16 +3,24 @@ service: sv3
 provider:
   name: aws
   runtime: python3.6
+  region: us-west-2
 
   environment:
     authUrl: ${file(config.${self:provider.stage}.json):authUrl}
     waiversUrl: ${file(config.${self:provider.stage}.json):waiversUrl}
     platformUrl: ${file(config.${self:provider.stage}.json):platformUrl}
     profileToken: ${file(config.${self:provider.stage}.json):profileToken}
+
+custom:
+  pythonRequirements:
+    fileName: src/requirements.txt
+    usePipenv: false
+    noDeploy:
+      - pytest
     
 functions:
   fetch:
-    handler: handler.fetch
+    handler: src/handler.fetch
     memorySize: 512
     events:
       - http:
@@ -26,6 +34,3 @@ functions:
 plugins:
   - serverless-python-requirements
 
-# custom:
-#   pythonRequirements:
-#     dockerizePip: true

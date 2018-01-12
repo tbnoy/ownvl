@@ -1,7 +1,7 @@
 import unittest
 import json
 import os
-from fetchFunction.video_service.fields.captions import Captions
+from src.fetchFunction.video_service.fields.captions import Captions
 
 class CaptionsTest(unittest.TestCase):
     

@@ -1,11 +1,11 @@
 import unittest
 from unittest.mock import MagicMock
 from unittest.mock import patch
-from fetchFunction.feed_data.ProfileApi import ProfileApi
+from src.fetchFunction.feed_data.ProfileApi import ProfileApi
 
 class ProfileApiTest(unittest.TestCase):
 
-    @patch('fetchFunction.feed_data.ProfileApi.requests')
+    @patch('src.fetchFunction.feed_data.ProfileApi.requests')
     def test_getVideoAuth(self, requestsMock):
         authUrl = 'authUrl'
         waiversUrl = 'waiversUrl'
@@ -37,7 +37,7 @@ class ProfileApiTest(unittest.TestCase):
             profileApi.getVideoAuth(data)
         )
 
-    @patch('fetchFunction.feed_data.ProfileApi.requests')
+    @patch('src.fetchFunction.feed_data.ProfileApi.requests')
     def test_getWaivers_mockSlug(self, requestsMock):
         authUrl = 'authUrl'
         waiversUrl = 'waiversUrl'
@@ -70,7 +70,7 @@ class ProfileApiTest(unittest.TestCase):
             profileApi.getWaivers(data)
         )
 
-    @patch('fetchFunction.feed_data.ProfileApi.requests')
+    @patch('src.fetchFunction.feed_data.ProfileApi.requests')
     def test_getWaivers_needToCallAuth(self, requestsMock):
         authUrl = 'authUrl'
         waiversUrl = 'waiversUrl'

@@ -1,7 +1,7 @@
 import unittest
 import json
 import os
-from fetchFunction.video_service.fields.urls import Urls
+from src.fetchFunction.video_service.fields.urls import Urls
 
 class UrlsTest(unittest.TestCase):
     

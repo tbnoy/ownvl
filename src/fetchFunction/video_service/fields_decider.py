@@ -22,10 +22,16 @@ def fieldsDecider(fields):
 
     fieldsToRet = []
 
-    for field in fields:
-        if field in fieldRules:
-            fieldsToRet = fieldsToRet + fieldRules[field]
-        elif field in exists:
-            fieldsToRet.append(field)
+    try:
+        fields = fields.split(",")
+        for field in fields:
+            if field in fieldRules:
+                fieldsToRet = fieldsToRet + fieldRules[field]
+            elif field in exists:
+                fieldsToRet.append(field)
+    except:
+        return fieldRules['default']
+
+    
 
     return list(set(fieldsToRet))

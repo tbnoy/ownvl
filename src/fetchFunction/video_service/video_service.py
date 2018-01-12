@@ -1,7 +1,7 @@
-from fetchFunction.feed_data.factories import getPlatform
-from fetchFunction.feed_data.factories import getProfileApi
+from src.fetchFunction.feed_data.factories import getPlatform
+from src.fetchFunction.feed_data.factories import getProfileApi
 from .fields_decider import fieldsDecider
-from fetchFunction.feed_data.platform_feed import PlatformFeed
+from src.fetchFunction.feed_data.platform_feed import PlatformFeed
 from .fields.metadata import Metadata
 from .fields.modifiers import Modifiers
 from .fields.captions import Captions
@@ -33,7 +33,7 @@ class VideoService:
         res = platformFeed.fetchRays(params['videoGuid'])
         self.raysData = res
         
-        fields = fieldsDecider(params['fields'].split(","))
+        fields = fieldsDecider(params['fields'])
         
         if 'metadata' in fields:
             metadata = Metadata()

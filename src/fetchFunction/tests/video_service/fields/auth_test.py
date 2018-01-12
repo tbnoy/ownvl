@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import MagicMock
 import json
 import os
-from fetchFunction.video_service.fields.auth import Auth
+from src.fetchFunction.video_service.fields.auth import Auth
 
 class AuthTest(unittest.TestCase):
     

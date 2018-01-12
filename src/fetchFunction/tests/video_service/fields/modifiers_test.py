@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import MagicMock
 import json
 import os
-from fetchFunction.video_service.fields.modifiers import Modifiers
+from src.fetchFunction.video_service.fields.modifiers import Modifiers
 
 class ModifiersTest(unittest.TestCase):
     

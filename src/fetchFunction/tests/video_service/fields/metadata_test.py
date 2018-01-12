@@ -1,7 +1,7 @@
 import unittest
 import json
 import os
-from fetchFunction.video_service.fields.metadata import Metadata
+from src.fetchFunction.video_service.fields.metadata import Metadata
 
 class MetadataTest(unittest.TestCase):
     

@@ -1,12 +1,12 @@
 import unittest
 from unittest.mock import MagicMock
 from unittest.mock import patch
-from fetchFunction.feed_data.factories import getPlatform
-from fetchFunction.feed_data.factories import getProfileApi
+from src.fetchFunction.feed_data.factories import getPlatform
+from src.fetchFunction.feed_data.factories import getProfileApi
 
 class FactoriesTest(unittest.TestCase):
 
-    @patch('fetchFunction.config.conf')
+    @patch('src.fetchFunction.config.conf')
     def test_getPlatform(self, confMock):
         someUrl = 'someUrl'
 
@@ -20,7 +20,7 @@ class FactoriesTest(unittest.TestCase):
         
         self.assertEqual('PlatformFeed', name)
 
-    @patch('fetchFunction.config.conf')
+    @patch('src.fetchFunction.config.conf')
     def test_getProfileApi(self, confMock):
         confMock = {
             'waiversUrl': 'waiversUrl',

@@ -1,4 +1,4 @@
-from fetchFunction.feed_data.factories import getProfileApi
+from src.fetchFunction.feed_data.factories import getProfileApi
 
 class Waivers:
 

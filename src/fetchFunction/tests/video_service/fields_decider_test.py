@@ -1,5 +1,5 @@
 import unittest
-from fetchFunction.video_service.fields_decider import fieldsDecider
+from src.fetchFunction.video_service.fields_decider import fieldsDecider
 
 class FieldsDeciderTest(unittest.TestCase):
 

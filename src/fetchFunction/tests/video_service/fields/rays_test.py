@@ -1,7 +1,7 @@
 import unittest
 import json
 import os
-from fetchFunction.video_service.fields.rays import Rays
+from src.fetchFunction.video_service.fields.rays import Rays
 
 class RaysTest(unittest.TestCase):
     
