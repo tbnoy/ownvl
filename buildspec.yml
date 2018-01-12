@@ -8,4 +8,4 @@ phases:
       - cd src && npm install
   build:
     commands:
-      - cd src && sls deploy
+      - sls deploy
